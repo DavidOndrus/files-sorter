@@ -78,7 +78,7 @@ namespace VideoMover
                             this.Dispatcher.Invoke(() => { pocetUspesne++; });
                         }
                         catch (Exception ex1)
-                        {
+                        {h
                             this.Dispatcher.Invoke(() =>
                             {
                                 errorlogTxtb.Text += file + Environment.NewLine;
